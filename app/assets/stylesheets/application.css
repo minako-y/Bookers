@@ -31,12 +31,16 @@ p, ol, ul, td {
 }
 
 a {
-  color: #333;
+  color: #000;
 }
 
 a:hover {
   color: #FFF;
   background-color: #000;
+}
+
+a:visited {
+  color: #666
 }
 
 th {
@@ -49,7 +53,6 @@ td {
   padding-right: 5px;
 }
 
-
 .field, .actions {
   margin-bottom: 10px;
 }
@@ -58,10 +61,15 @@ label {
   display: block;
 }
 
+#notice {
+  color: green;
+}
 
 /*バリデーションチェックのエラー表記*/
 #error_explanation {
-  margin-bottom: 20px;
+  width: 450px;
+  ma
+  rgin-bottom: 20px;
   border: solid red 2px;
   background-color: #f0f0f0
 }
@@ -75,3 +83,9 @@ label {
   text-align: left;
 }
 
+.field_with_errors {
+  background-color: red;
+  padding: 2px;
+  display: table;
+  border-radius: 3px;
+}
