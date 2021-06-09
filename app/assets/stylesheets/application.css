@@ -68,10 +68,9 @@ label {
 /*バリデーションチェックのエラー表記*/
 #error_explanation {
   width: 450px;
-  ma
-  rgin-bottom: 20px;
+  margin-bottom: 20px;
   border: solid red 2px;
-  background-color: #f0f0f0
+  background-color: #f0f0f0;
 }
 
 #error_explanation h2 {
